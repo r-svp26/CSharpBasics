@@ -15,7 +15,7 @@ namespace ProgrammingConstruct
         /// </summary>
         static Quotient()
         {
-            Console.WriteLine("Enter the Value of Divident and Divisor.");
+            Console.WriteLine("Please! Enter the Value of Divident and Divisor.");
         }
         /// <summary>
         /// This method is used to evaluate quotient and remainder.
