@@ -50,6 +50,12 @@ namespace ProgrammingConstruct
                         primeFactor.PrimeFactorization();
                         break;
                     }
+                case 6:
+                    {
+                        Quotient quotient = new Quotient();
+                        quotient.GetQuotient();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
