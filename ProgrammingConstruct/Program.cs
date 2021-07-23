@@ -15,6 +15,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor");
             Console.WriteLine("6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
             Console.WriteLine("11:Fibonacci 12:PerfectNumber 13:PrimeNumber 14:ReverseNumber");
+            Console.WriteLine("15:Temperature");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -107,6 +108,11 @@ namespace ProgrammingConstruct
                         ReverseNumber reverse = new ReverseNumber();
                         int reverseNumber = reverse.Reverse();
                         Console.WriteLine("Number after reversed:" +reverseNumber);
+                        break;
+                    }
+                case 15:
+                    {
+                        Temperature.temperatureConversion();
                         break;
                     }
                 default:
