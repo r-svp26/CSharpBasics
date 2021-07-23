@@ -44,6 +44,12 @@ namespace ProgrammingConstruct
                         harmonicNumber.HarmonicPattern();
                         break;
                     }
+                case 5:
+                    {
+                        PrimeFactor primeFactor = new PrimeFactor();
+                        primeFactor.PrimeFactorization();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
