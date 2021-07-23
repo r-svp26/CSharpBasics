@@ -68,6 +68,12 @@ namespace ProgrammingConstruct
                         oddEven.CheckOddEven();
                         break;
                     }
+                case 9:
+                    {
+                        Alphabet alphabet = new Alphabet();
+                        alphabet.CheckVowelConsonant();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
