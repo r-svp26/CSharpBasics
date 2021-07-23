@@ -62,6 +62,12 @@ namespace ProgrammingConstruct
                         swapNumber.SwapTwoNumber();
                         break;
                     }
+                case 8:
+                    {
+                        OddEven oddEven = new OddEven();
+                        oddEven.CheckOddEven();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
