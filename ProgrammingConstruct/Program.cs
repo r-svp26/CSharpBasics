@@ -38,6 +38,12 @@ namespace ProgrammingConstruct
                         powTable.PrintTable();
                         break;
                     }
+                case 4:
+                    {
+                        HarmonicNumber harmonicNumber = new HarmonicNumber();
+                        harmonicNumber.HarmonicPattern();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
