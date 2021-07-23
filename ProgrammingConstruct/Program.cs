@@ -6,7 +6,13 @@ namespace ProgrammingConstruct
     {
         // variables
         int option= Convert.ToInt32(Console.ReadLine());
-
+        /// <summary>
+        /// static constructor is used to display console message to user.
+        /// </summary>
+        static Program()
+        {
+            Console.WriteLine("Enter the option for Class.");
+        }
         /// <summary>
         /// This method is used to call a specific class in the project.
         /// </summary>
@@ -26,6 +32,12 @@ namespace ProgrammingConstruct
                         leapYear.IsLeapYear();
                         break;
                     }
+                case 3:
+                    {
+                        PowTable powTable = new PowTable();
+                        powTable.PrintTable();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
@@ -33,7 +45,6 @@ namespace ProgrammingConstruct
             }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the option for Class.");
             Program program = new Program();
             program.InvokeClass();
         }
