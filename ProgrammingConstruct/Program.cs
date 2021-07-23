@@ -20,6 +20,12 @@ namespace ProgrammingConstruct
                         flip.GetPercentage();
                         break;
                     }
+                case 2:
+                    {
+                        LeapYear leapYear = new LeapYear();
+                        leapYear.IsLeapYear();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
