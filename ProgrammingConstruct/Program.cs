@@ -56,6 +56,12 @@ namespace ProgrammingConstruct
                         quotient.GetQuotient();
                         break;
                     }
+                case 7:
+                    {
+                        SwapNumber swapNumber = new SwapNumber();
+                        swapNumber.SwapTwoNumber();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
