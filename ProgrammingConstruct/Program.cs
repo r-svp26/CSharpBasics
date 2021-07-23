@@ -11,8 +11,10 @@ namespace ProgrammingConstruct
         /// </summary>
         static Program()
         {
-            Console.WriteLine("Enter the option 1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor ");
-            Console.WriteLine("                 6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
+            Console.WriteLine("Select the option from below");
+            Console.WriteLine("1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor");
+            Console.WriteLine("6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
+            Console.WriteLine("11:Fibonacci");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -79,6 +81,12 @@ namespace ProgrammingConstruct
                     {
                         LargestNumber largestNumber = new LargestNumber(21,36,25);
                         largestNumber.GetMax();
+                        break;
+                    }
+                case 11:
+                    {
+                        Fibonacci fibonacci = new Fibonacci();
+                        fibonacci.printSeries();
                         break;
                     }
                 default:
