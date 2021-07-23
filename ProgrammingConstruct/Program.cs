@@ -14,7 +14,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("Select the option from below");
             Console.WriteLine("1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor");
             Console.WriteLine("6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
-            Console.WriteLine("11:Fibonacci");
+            Console.WriteLine("11:Fibonacci 12:PerfectNumber");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -87,6 +87,12 @@ namespace ProgrammingConstruct
                     {
                         Fibonacci fibonacci = new Fibonacci();
                         fibonacci.printSeries();
+                        break;
+                    }
+                case 12:
+                    {
+                        PerfectNumber perfectNumber = new PerfectNumber();
+                        perfectNumber.Check_Perfect();
                         break;
                     }
                 default:
