@@ -11,7 +11,8 @@ namespace ProgrammingConstruct
         /// </summary>
         static Program()
         {
-            Console.WriteLine("Enter the option for Class.");
+            Console.WriteLine("Enter the option 1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor ");
+            Console.WriteLine("                 6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -72,6 +73,12 @@ namespace ProgrammingConstruct
                     {
                         Alphabet alphabet = new Alphabet();
                         alphabet.CheckVowelConsonant();
+                        break;
+                    }
+                case 10:
+                    {
+                        LargestNumber largestNumber = new LargestNumber(21,36,25);
+                        largestNumber.GetMax();
                         break;
                     }
                 default:
