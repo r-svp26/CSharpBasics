@@ -16,7 +16,7 @@ namespace ProgrammingConstruct
             Console.WriteLine("6: Quotient 7: SwapNumber 8: OddEven 9: Albhabet 10: LargestNumber");
             Console.WriteLine("11: Fibonacci 12: PerfectNumber 13: PrimeNumber 14: ReverseNumber");
             Console.WriteLine("15: Temperature 16: Payment 17: BinaryNumber 18: Distinct Coupon");
-            Console.WriteLine("19: WeekDay");
+            Console.WriteLine("19: WeekDay 20: SquareRoot");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -161,6 +161,13 @@ namespace ProgrammingConstruct
                                 Console.WriteLine("Day is Saturday");
                                 break;
                         }
+                        break;
+                    }
+                case 20:
+                    {
+                        SquareRoot squareRoot = new SquareRoot();
+                        double value=squareRoot.SQRT();
+                        Console.WriteLine("Square root of Number:"+ value);
                         break;
                     }
                 default:
