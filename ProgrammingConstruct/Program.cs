@@ -125,6 +125,13 @@ namespace ProgrammingConstruct
                         BinaryNumber.ToBinary();
                         break;
                     }
+                case 18:
+                    {
+                        DistinctCoupon distinctCoupon = new DistinctCoupon();
+                        int count=distinctCoupon.GenerateCoupon();
+                        Console.WriteLine("No of Distinct Coupon:" +count);
+                        break;
+                    }
                 default:
                     Console.WriteLine("Please! Enter the valid option.");
                     break;
