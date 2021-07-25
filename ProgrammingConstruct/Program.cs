@@ -12,10 +12,10 @@ namespace ProgrammingConstruct
         static Program()
         {
             Console.WriteLine("Select the option from below");
-            Console.WriteLine("1:FlipCoin 2:LeapYear 3:PowTable 4:HarmonicNumber 5:PrimeFactor");
-            Console.WriteLine("6:Quotient 7:SwapNumber 8:OddEven 9:Albhabet 10:LargestNumber");
-            Console.WriteLine("11:Fibonacci 12:PerfectNumber 13:PrimeNumber 14:ReverseNumber");
-            Console.WriteLine("15:Temperature 16:Payment 17:BinaryNumber");
+            Console.WriteLine("1: FlipCoin 2: LeapYear 3: PowTable 4: HarmonicNumber 5: PrimeFactor");
+            Console.WriteLine("6: Quotient 7: SwapNumber 8: OddEven 9: Albhabet 10: LargestNumber");
+            Console.WriteLine("11: Fibonacci 12: PerfectNumber 13: PrimeNumber 14: ReverseNumber");
+            Console.WriteLine("15: Temperature 16: Payment 17: BinaryNumber");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.

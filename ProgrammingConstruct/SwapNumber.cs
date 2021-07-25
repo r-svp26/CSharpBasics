@@ -7,7 +7,6 @@ namespace ProgrammingConstruct
     class SwapNumber
     {
         // varaibles
-        int temp;
         int firstNumber = Convert.ToInt32(Console.ReadLine());
         int secondNumber = Convert.ToInt32(Console.ReadLine());
         /// <summary>
@@ -18,13 +17,13 @@ namespace ProgrammingConstruct
             Console.WriteLine("Enter the First Number and Second Number");
         }
         /// <summary>
-        /// This method is used to swap the value of two number.
+        /// This method is used to swap the value of two numbers using operators.
         /// </summary>
         public void SwapTwoNumber()
         {
-            temp = firstNumber;
-            firstNumber = secondNumber;
-            secondNumber = temp;
+            firstNumber = firstNumber + secondNumber;
+            secondNumber = firstNumber - secondNumber;
+            firstNumber = firstNumber - secondNumber;
             Console.WriteLine("First number after swap:" + firstNumber);
             Console.WriteLine("Second number after swap:" + secondNumber);
         }
