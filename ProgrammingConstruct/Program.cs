@@ -15,7 +15,8 @@ namespace ProgrammingConstruct
             Console.WriteLine("1: FlipCoin 2: LeapYear 3: PowTable 4: HarmonicNumber 5: PrimeFactor");
             Console.WriteLine("6: Quotient 7: SwapNumber 8: OddEven 9: Albhabet 10: LargestNumber");
             Console.WriteLine("11: Fibonacci 12: PerfectNumber 13: PrimeNumber 14: ReverseNumber");
-            Console.WriteLine("15: Temperature 16: Payment 17: BinaryNumber");
+            Console.WriteLine("15: Temperature 16: Payment 17: BinaryNumber 18: Distinct Coupon");
+            Console.WriteLine("19: WeekDay");
         }
         /// <summary>
         /// This method is used to call a specific class in the project.
@@ -130,6 +131,36 @@ namespace ProgrammingConstruct
                         DistinctCoupon distinctCoupon = new DistinctCoupon();
                         int count=distinctCoupon.GenerateCoupon();
                         Console.WriteLine("No of Distinct Coupon:" +count);
+                        break;
+                    }
+                case 19:
+                    {
+                        WeekDay weekDay = new WeekDay();
+                        int day = weekDay.DayOfWeek();
+                        switch (day)
+                        {
+                            case 0:
+                                Console.WriteLine("Day is Sunday");
+                                break;
+                            case 1:
+                                Console.WriteLine("Day is Monday");
+                                break;
+                            case 2:
+                                Console.WriteLine("Day is Tuesday");
+                                break;
+                            case 3:
+                                Console.WriteLine("Day is Wednesday");
+                                break;
+                            case 4:
+                                Console.WriteLine("Day is Thursday");
+                                break;
+                            case 5:
+                                Console.WriteLine("Day is Friday");
+                                break;
+                            case 6:
+                                Console.WriteLine("Day is Saturday");
+                                break;
+                        }
                         break;
                     }
                 default:
